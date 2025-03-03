@@ -42,4 +42,4 @@ jobs:
         port: 22
         script: |
           rm -rf ${{ secrets.SERVER_TARGET }}/*
-          mv /tmp/deploy_temp/* ${{ secrets.SERVER_TARGET }}/
+          mv /tmp/deploy_temp/dist/* ${{ secrets.SERVER_TARGET }}/
