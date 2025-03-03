@@ -1,0 +1,8 @@
+{
+  // 识别路径
+  "compilerOptions": {
+    "paths": {
+      "@/*" : ["./src/*"]
+    }
+  }
+}
